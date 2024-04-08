@@ -11,3 +11,9 @@ struct patient
 struct inpatient{
 struct patient patients[10];
 };
+int main(int argc, char const *argv[])
+{
+    populate_inpatient();
+    print_inpatient();
+    return 0;
+}
