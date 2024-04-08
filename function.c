@@ -20,6 +20,6 @@ void printpatient(struct patients patient[10])
 for(int i=0;i<10;i++){
 	printf("patient %d :%s by %s\n,i+1,patient[i].name,patient[i].doctor");
 }
-
+return 0;
 }
        
