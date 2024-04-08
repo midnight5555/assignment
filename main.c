@@ -1,19 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "functions.h"
 
-struct patient
- {
-     char name[50];
-     char consultant[50];
-     int age;
-};
-
-struct inpatient{
-struct patient patients[10];
-};
-int main(int argc, char const *argv[])
+int int main()
 {
-    populate_inpatient();
-    print_inpatient();
-    return 0;
+struct patients patient[10];
+
+populatepatient(patient);
+printpatient(patient);
+
+return 0;
+
 }
