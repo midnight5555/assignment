@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "functions.h"
 
-int int main()
+int main()
 {
 struct patients patient[10];
 
